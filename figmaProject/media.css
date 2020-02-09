@@ -1,0 +1,78 @@
+@media(max-width: 800px){
+    body{
+        font-size: calc(6px + 0.366vw)
+    }
+}
+@media (max-width: 800px){
+    .header{
+        /*margin-left: 15%;
+        margin-right:15%;*/
+        align-items: center;
+
+    }
+    .photo1{
+        display: none;
+    }
+    .photo2{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .header p{
+        text-align: center;
+        /*padding-left: 20%;
+        padding-right: 20%;
+        margin-right: 20%;
+        margin-left: 20%;*/
+    }
+    .icons{
+        align-items: center;
+        padding-right: 35%;
+        padding-left: 35%;
+    }
+
+}
+
+@media (max-width: 522px) {
+    .icons{
+        align-items: center;
+        padding-right: 35%;
+        padding-left: 35%;
+        margin-top: 10%;
+    }
+}
+@media(max-width: 700px) {
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 0 50px 0;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .article{
+        width:auto;
+    }
+    .content{
+        margin: 0 10% 0 10%;
+    }
+    article{
+        margin: 0 10% 0 10%;
+        width: 80%;
+    }
+    .Email{
+        margin:0 10% 0 10%;
+    }
+    .h1{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 750px){
+    .content3{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+}
